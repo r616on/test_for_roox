@@ -1,0 +1,32 @@
+.SortList {
+  max-width: 152px;
+  width: 100%;
+  height: 100%;
+  background: #bdbdbd;
+  padding: 20px;
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+}
+.SortList_title {
+  margin-bottom: 10px;
+}
+.title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+}
+.SortList_row {
+  // display: flex;
+  // flex-direction: column;
+  flex: 1 1 auto;
+}
+.SortList_item {
+  margin-bottom: 10px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

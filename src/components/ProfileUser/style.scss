@@ -1,0 +1,39 @@
+.ProfileUser {
+  padding-top: 13px;
+  padding-left: 36px;
+  padding-right: 41px;
+  height: 100vh;
+}
+.ProfileUser__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.ProfileUser__title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.title {
+}
+.ProfileUser__edit {
+  margin-right: 5px;
+}
+.ProfileUser__form {
+}
+.form {
+  .form__row {
+    background: #ffffff;
+    border: 1px solid #f3f3f3;
+    border-radius: 8px;
+    padding-top: 20px;
+    padding-left: 12px;
+    padding-right: 6px;
+    padding-bottom: 19px;
+    margin-bottom: 10px;
+  }
+}

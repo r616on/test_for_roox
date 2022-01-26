@@ -1,0 +1,20 @@
+.container {
+  max-width: 665px;
+  width: 100%;
+  margin: 0 auto;
+}
+.main {
+  min-height: 100%;
+  .row {
+    display: flex;
+    width: 100%;
+    min-height: 100%;
+  }
+  .col {
+    &.sort {
+      width: 22.86%;
+      min-height: 100%;
+    }
+    width: 77.14%;
+  }
+}
